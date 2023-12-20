@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music - Loved music are here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="appContainer">
+        <nav>
+            <ul>
+                <li class="brand"><img src="images/logo.jpg" alt="Music">Music</li>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="songList"></div>
+            <h1>Best of BB - Bass Boosted sound</h1>
+            <div>
+                <div class="songItemContainer">
+                    <div class="songItem" id="songItem1">
+                        <img alt="1">
+                        <span class="songName">Mask Off</span>
+                        <span class="songListPlay"><span class="timer">03:24 <i id="0"
+                                    class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem" id="songItem2">
+                        <img alt="1">
+                        <span class="songName">Arabian Night</span>
+                        <span class="songListPlay"><span class="timer">03:24 <i id="1"
+                                    class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem" id="songItem3">
+                        <img alt="1">
+                        <span class="songName">Choix De Vie</span>
+                        <span class="songListPlay"><span class="timer">03:24 <i id="2"
+                                    class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem" id="songItem4">
+                        <img alt="1">
+                        <span class="songName">Mortals</span>
+                        <span class="songListPlay"><span class="timer">03:24 <i id="3"
+                                    class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem" id="songItem5">
+                        <img alt="1">
+                        <span class="songName">Not Alone</span>
+                        <span class="songListPlay"><span class="timer">03:24 <i id="4"
+                                    class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem" id="songItem6">
+                        <img alt="1">
+                        <span class="songName">Pirate</span>
+                        <span class="songListPlay"><span class="timer">03:24 <i id="5"
+                                    class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem" id="songItem7">
+                        <img alt="1">
+                        <span class="songName">Silence Of Reality</span>
+                        <span class="songListPlay"><span class="timer">03:24 <i id="6"
+                                    class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="banner"></div>
+        </div>
+
+        <div class="bottom">
+            <input type="range" class="range" id="myProgressBar" min="0" value="0" max="100">
+            <div class="icons">
+                <i class="fa-solid fa-2x fa-backward previousButton" id="previous"></i>
+                <i class="fa-regular fa-2x fa-circle-play playButton" id="masterPlay"></i>
+                <i class="fa-solid fa-2x fa-forward nextButton" id="next"></i>
+            </div>
+            <div class="songInfo">
+                <img src="images/music.gif" width="45px" alt="playback" id="gif"> <span id="masterSongName">Mask
+                    Off</span>
+            </div>
+        </div>
+
+        <script src="https://kit.fontawesome.com/e44b299a58.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>

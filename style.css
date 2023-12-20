@@ -1,0 +1,135 @@
+body {
+    background-color: aliceblue;
+    background-image: url('images/bg.jpg');
+    background-position: center;
+
+}
+
+.appContainer{
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: column;
+    height: 100vh;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(68,93,72);
+    color: white;
+    cursor: pointer;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    height: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+
+    color: white;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    display: flex;
+    margin: auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 12px;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.bottom {
+ 
+    bottom: 0;
+    height: 90px;
+    background-color: rgb(68,93,72);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin: 14px;
+}
+
+.previousButton {
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.playButton {
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.nextButton{
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 100vh;
+    cursor: pointer;
+}
+
+.songItemContainer {
+    margin-top: 60px;
+}
+
+.songItem{
+    height: 50px;
+    width: 40%;
+    display: flex;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 23px;
+    background-color: blue;
+}
+
+.songItem img {
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 20px;
+}
+
+.timer {
+    margin: 0 23px;
+}
+
+.timer i {
+    cursor: pointer;
+}
+
+.songInfo {
+    position: absolute;
+    left: 25vw;
+    display: flex;
+    align-items: center;
+    font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
+
